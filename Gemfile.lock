@@ -178,7 +178,7 @@ GEM
     factory_girl_rails (4.4.1)
       factory_girl (~> 4.4.0)
       railties (>= 3.0.0)
-    faraday (0.9.0)
+    faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     fb-channel-file (0.0.2)
       rails (>= 3.0)
@@ -533,6 +533,7 @@ DEPENDENCIES
   dynamic_form
   email_spec
   factory_girl_rails
+  faraday (~> 0.9.1)
   fb-channel-file
   flying-sphinx (~> 1.2.0)
   guard-livereload
@@ -597,3 +598,6 @@ DEPENDENCIES
   will_paginate
   xpath
   zeus (= 0.15.1)
+
+BUNDLED WITH
+   1.10.6

@@ -84,6 +84,7 @@ gem 'airbrake', '~>4.1.0'
 gem 'cache_digests'
 
 gem 'lograge'
+gem 'faraday', '~> 0.9.1'
 
 group :staging, :production do
   gem 'newrelic_rpm', '~> 3.9.1.236'
