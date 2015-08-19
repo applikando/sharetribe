@@ -1,29 +1,16 @@
 
 # listings/v1/
 
-## GET /:community_id
-
-**This endpoint is not implemented yet**
+## GET /:community_id/search
 
 Request params:
 
-* q: "Search string"
-* category: "tools"
-* open: true/false
-
-etc...
+* keywords: "Search string"
 
 Response:
 
 ```ruby
-[ { id: 123,
-  , title: "Power drill"
-  , ...
-  }
-, { id: 234,
-  , title: "Saw"
-  , ...
-  }
+TODO
 ]
 ```
 
