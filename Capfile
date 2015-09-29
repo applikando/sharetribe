@@ -1,3 +1,13 @@
+# Load DSL and set up stages
+require 'capistrano/setup'
+
+# Include default deployment tasks
+require 'capistrano/deploy'
+require 'capistrano/bundler'
+require 'capistrano/chruby'
+require 'capistrano/rails'
+require 'capistrano/puma'
+
 load 'deploy' if respond_to?(:namespace) # cap2 differentiator
 Dir['vendor/plugins/*/recipes/*.rb'].each { |plugin| load(plugin) }
 Dir['lib/recipes/*.rb'].each { |plugin| load(plugin) }
