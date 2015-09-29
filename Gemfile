@@ -21,6 +21,7 @@ gem 'compass-rails'
 gem 'jquery-rails', '2.1.4'
 
 # Bundle the extra gems:
+gem 'therubyracer', platforms: :ruby
 
 # gem 'heroku' install the Heroku toolbelt (https://toolbelt.heroku.com/) instead (as gem had some problems)
 gem "passenger", "~> 5.0.18"
